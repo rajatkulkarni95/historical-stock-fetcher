@@ -30,6 +30,7 @@ function fetchHistoricalData() {
       const closeKey = Object.keys(timeSeries[duration[0]]).filter((value) =>
         value.includes("close")
       );
+
       duration.forEach((dur) => {
         const date = dur;
 
@@ -37,6 +38,7 @@ function fetchHistoricalData() {
 
         data.push({ date, close });
       });
+
       const JSONFriendlyData = {
         stock: portfolio.ticker,
         time: timeFrame,
@@ -48,10 +50,10 @@ function fetchHistoricalData() {
         JSON.stringify(JSONFriendlyData)
       );
       //   fs.writeFileSync(`src/data/${ticker}.json`, JSON.stringify(json));
-      await timer(20000);
     } catch (e) {
       console.error(e);
     }
+    await timer(20000);
   });
 }
 
