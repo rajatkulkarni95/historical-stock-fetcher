@@ -1,38 +1,38 @@
 export const portfolios = [
   {
-    stockName: "AAPL",
-    companyName: "Apple",
+    ticker: "AAPL",
+    company: "Apple",
   },
   {
-    stockName: "AMD",
-    companyName: "AMD",
+    ticker: "AMD",
+    company: "AMD",
   },
   {
-    stockName: "AMZN",
-    companyName: "Amazon",
+    ticker: "AMZN",
+    company: "Amazon",
   },
   {
-    stockName: "GOOG",
-    companyName: "Google",
+    ticker: "GOOG",
+    company: "Google",
   },
   {
-    stockName: "IBM",
-    companyName: "IBM",
+    ticker: "IBM",
+    company: "IBM",
   },
   {
-    stockName: "NFLX",
-    companyName: "Netflix",
+    ticker: "NFLX",
+    company: "Netflix",
   },
   {
-    stockName: "TSLA",
-    companyName: "Tesla",
+    ticker: "TSLA",
+    company: "Tesla",
   },
   {
-    stockName: "DAL",
-    companyName: "Delta Airlines",
+    ticker: "DAL",
+    company: "Delta Airlines",
   },
   {
-    stockName: "INFY",
-    companyName: "Infosys",
+    ticker: "INFY",
+    company: "Infosys",
   },
 ];
